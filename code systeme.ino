@@ -11,11 +11,11 @@
 #include <UniversalTelegramBot.h>   // Universal Telegram Bot Library written by Brian Lough: https://github.com/witnessmenow/Universal-Arduino-Telegram-Bot
 #include <ArduinoJson.h>
 // Initialize Telegram BOT
-#define BOTtoken "7740736002:AAGjyhe4TNzBx30A9-Fv5fQlBH9TwPBlMy8"  // your Bot Token (Get from Botfather)
+#define BOTtoken ""  // your Bot Token (Get from Botfather)
 // Use @myidbot to find out the chat ID of an individual or a group
 // Also note that you need to click "start" on a bot before it can
 // message you
-#define CHAT_ID "7988402856"
+#define CHAT_ID ""
 WiFiClientSecure client;
 UniversalTelegramBot bot(BOTtoken, client);
 // Checks for new messages every 1 second.
@@ -26,8 +26,8 @@ unsigned long lastTimeBotRan;
 Adafruit_MLX90614 mlx = Adafruit_MLX90614();
 HardwareSerial SerialPort(0);
 // WiFi info
-const char* ssid = "Airbox-C9E6";
-const char* password = "FFG5JESy";
+const char* ssid = "";
+const char* password = "";
 
 // Capteurs
 MAX30105 particleSensor;
